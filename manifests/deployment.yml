@@ -24,7 +24,8 @@ spec:
     spec:
       containers:
         - name: app
-          image: siddharth67/block-buster-dev:7.8.0
+          image: aman35/bb-app-flux-demo-killercoda:7.8.0
+          #image: siddharth67/block-buster-dev:7.8.0
           imagePullPolicy: Always
           resources:
             requests:
